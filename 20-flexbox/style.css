@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: Arial;
+}
+
+.contenedor {
+  width: 80%;
+  max-width: 700px;
+  height: 500px;
+  background: #212d40;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-flow: row wrap; Es lo mismo que escribir direction y wrap pero en one line */
+  justify-content: center;
+  /* alinea horizontal*/
+  /* align-items: center ; alinea vertical */
+  /* align-content: flex-start; */
+  /*Solo se puede usar un align, sea items o content*/
+}
+
+.caja {
+  width: 100px;
+  height: 100px;
+
+  text-align: center;
+  background: #f79256;
+  margin: 20px;
+  padding: 20px;
+  font-size: 40px;
+  color: #fff;
+  /*	flex-grow:1;
+	flex-shrink:1;*/
+  flex: 1 1 auto;
+}
+
+.dos {
+  align-self: stretch;
+  height: auto;
+}

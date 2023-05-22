@@ -1,0 +1,9 @@
+.contenedor {
+  display: grid;
+  /* Cuando ya se le asigno el displey deberemos decirle cuantas filas 
+  y columnas queremos*/
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+
+}

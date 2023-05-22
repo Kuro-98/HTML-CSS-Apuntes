@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            http-equiv="X-UA-Compatible"
+            content="IE=edge"
+        />
+        <meta
+            name="keywords"
+            content="Aqui agregaremos todas las palabras que se relacionen al contenido de nuestra web"
+        />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <meta
+            name="description"
+            content="Lo mismo que con keywords max 170"
+        />
+        <meta
+            name="author"
+            content="Manolo Morales"
+        />
+        <title>Mi primera web</title>
+        <link
+            rel="stylesheet"
+            href="style.css"
+        />
+    </head>
+    <body>
+        <h1>Titulo</h1>
+        <hr />
+        <!-- Generalmente agruparemos los datos de formularios con form-->
+        <hr />
+        <form
+            action="/formulario"
+            method="get"
+        >
+            <!-- Gracias a action le indicamos la ruta donde se enviaran los datos ej /formulario.php-->
+            <!--Seguido del metodo sea GET o POST-->
+            <label for="nombre">Nombre</label>
+            <input
+                value="chanchito"
+                id="nombre"
+                type="text"
+                name="Nombre"
+                placeholder="Nombre"
+            />
+            <!-- value le indica al input cual es el valor recibido o por defecto-->
+            <!-- el name le indica el valor que esta recibiendo-->
+            <input
+                id="archivo"
+                type="file"
+                name="archivo"
+                placeholder="archivo"
+            />
+            <textarea
+                name="comentarios"
+                id="comentarios"
+                cols="30"
+                rows="10"
+            ></textarea>
+            <br />
+            <input type="submit" />
+        </form>
+        <hr />
+        <br />
+        <video
+            src="https://youtu.be/MJkdaVFHrto"
+            controls
+        >
+            <p>Su navegador no soporta vídeos HTML5.</p>
+        </video>
+        <br />
+        <button type="button">Button</button>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+
+        <a href="#">PicaleAqui</a>
+        <a href="#">PicaleAqui2</a>
+        <a href="#">PicaleAqui3</a>
+        <a
+            href="https://www.udemy.com/course/diseno-web/learn/lecture/5472658?start=150#overview"
+            >PicaleAqui3</a
+        >
+        <a
+            href="https://www.udemy.com/course/diseno-web/learn/lecture/5472658?start=150#overview"
+            >PicaleAqui4</a
+        >
+    </body>
+</html>

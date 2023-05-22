@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+video {
+  width: 400px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+button {
+  width: 70px;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: red;
+}
+
+
+a:hover {
+  background: #f9a03f;
+  color: white;
+
+}
+
+a:visited {
+  color: yellowgreen;
+}
+
+
+a:active {
+  text-decoration: underline;
+}
